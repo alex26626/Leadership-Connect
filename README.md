@@ -39,8 +39,8 @@ c)	origins_analysis(origins_data, comparisons_data): this function takes as inpu
 The Comparison_Combination_Origin_Files.zip folder contains the files to be used as inputs for the functions in the Comparisons_Origins.py file. All the information in these files refers to images downloaded from Google Images. There are three different types of files: comparison files, combination files, and origin files, which are to be used as defined by the inputs names in the functions. Furthermore, there are different sub-categories depending on the name: 
 1)	The number in the file name refers to the number of images downloaded per each person. For instance, if the file name contains 10, then it refers to the case of the first 10 images downloaded per each person. 
 2)	The first half of the name refers to the inputs used in the search bar:
-a)	Standard refers to using only first_name + last_name.
-b)	LinkedIn refers to using first_name + last_name + LinkedIn.
-c)	LinkedIn_Law refers to using first_name + last_name + LinkedIn + Law.
-d)	LinkedIn_Title refers to using first_name + last_name + LinkedIn + job_title.
+  a)	Standard refers to using only first_name + last_name.
+  b)	LinkedIn refers to using first_name + last_name + LinkedIn.
+  c)	LinkedIn_Law refers to using first_name + last_name + LinkedIn + Law.
+  d)	LinkedIn_Title refers to using first_name + last_name + LinkedIn + job_title.
 Important: when using such files as inputs for the functions, it’s essential to use files containing the same number and the same type of input in the search bar.  For instance origins_analysis(Standard_10_Origins.csv, Standard_10_Comparison.csv), will refer to the case of 10 images downloaded per person, using only first and last name in the search bar. 
